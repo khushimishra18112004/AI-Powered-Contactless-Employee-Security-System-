@@ -4,6 +4,32 @@ An intelligent, contactless security and attendance monitoring system designed t
 
 ---
 
+## Setup & Execution Instructions
+
+### Prerequisites
+- Python 3.8+
+- Node.js 18+ & npm
+
+### 1. Installation & Model Evaluation
+
+Clone the repository and install the Python dependencies:
+```bash
+git clone [https://github.com/khushimishra18112004/AI-Powered-Contactless-Employee-Security-System-.git](https://github.com/khushimishra18112004/AI-Powered-Contactless-Employee-Security-System-.git)
+cd AI-Powered-Contactless-Employee-Security-System-
+pip install -r requirements.txt
+Run the model evaluation script:
+
+Bash
+python evaluate.py
+2. Running the Web Application
+Install Node dependencies and start the local development server:
+
+Bash
+npm install
+npm run dev
+
+---
+
 ## Model Training & Evaluation Report
 
 ### 1. Methodology
@@ -64,3 +90,5 @@ Actual: Unknown       1               0                 0                 1     
 ### Changes Between Commits & Rationale
 * **What Changed:** Transitioned from the base application template to a fully evaluated repository by adding model evaluation scripts (`evaluate.py`), quantitative security metrics (FAR, FRR, EER), confusion matrix analysis, and a live web demo link.
 * **Why:** Fulfills evaluation requirements
+
+  
