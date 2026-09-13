@@ -1,0 +1,6 @@
+{
+  "name": "Biometric Gait ID - 30-Subject Smartphone Sensor Recognition",
+  "description": "Biometric person-identification system using the 30-subject UCI Smartphone Sensor Dataset with >80% accuracy, leakage-free validation, live accelerometer testing, domain shift analysis, and large-scale biometric scaling architecture.",
+  "requestFramePermissions": ["accelerometer", "gyroscope"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
