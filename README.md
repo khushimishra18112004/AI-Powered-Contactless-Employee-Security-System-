@@ -1,5 +1,3 @@
----
-
 ## Model Training & Evaluation Report
 
 ### 1. Methodology
