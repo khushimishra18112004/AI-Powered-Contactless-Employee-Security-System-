@@ -30,9 +30,14 @@ An intelligent, contactless security and attendance monitoring system designed t
 
 Evaluated across 5 test subjects (50 test samples per employee):
 
-            Predicted: Emp_A  Predicted: Emp_B  Predicted: Emp_C  Predicted: Emp_D  Predicted: Unknown
-Actual: Emp_A        48                1                 0                 1                 0Actual: Emp_B         0               47                 2                 0                 1Actual: Emp_C         1               0                 49                 0                 0Actual: Emp_D         0               2                 0                 46                 2Actual: Unknown       1               0                 0                 1                48
----
+```
+                Predicted: Emp_A  Predicted: Emp_B  Predicted: Emp_C  Predicted: Emp_D  Predicted: Unknown
+Actual: Emp_A        48                1                 0                 1                 0
+Actual: Emp_B         0               47                 2                 0                 1
+Actual: Emp_C         1               0                 49                 0                 0
+Actual: Emp_D         0               2                 0                 46                 2
+Actual: Unknown       1               0                 0                 1                48
+```
 
 ### 4. Real-World vs. Dataset Comparison & Failure Cases
 
