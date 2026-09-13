@@ -9,7 +9,7 @@ An intelligent, contactless security and attendance monitoring system designed t
 ### 1. Methodology
 - **Dataset Split:** 70% Training, 15% Validation, 15% Testing.
 - **Preprocessing:** Face alignment, cropping, and normalization to 224x224 RGB. Data augmentation includes random rotation (±15°), brightness jitter, and horizontal flips.
-- **Training Details:** Trained for 50 epochs using Adam optimizer ($lr = 10^{-4}$) with Cross-Entropy Loss.
+- **Training Details:** Trained for 50 epochs using Adam optimizer (learning rate = 0.0001) with Cross-Entropy Loss.
 
 ---
 
@@ -24,14 +24,14 @@ An intelligent, contactless security and attendance monitoring system designed t
 | **False Rejection Rate (FRR)** | **4.7%** | < 5.0% |
 | **Equal Error Rate (EER)** | **2.1%** | < 3.0% |
 
-Predicted: Emp_A  Predicted: Emp_B  Predicted: Emp_C  Predicted: Emp_D  Predicted: Unknown
-Actual: Emp_A        48                1                 0                 1                 0
-Actual: Emp_B         0               47                 2                 0                 1
-Actual: Emp_C         1               0                 49                 0                 0
-Actual: Emp_D         0               2                 0                 46                 2
-Actual: Unknown       1               0                 0                 1                48   
+---
 
+### 3. Confusion Matrix (Per-Person Analysis)
 
+Evaluated across 5 test subjects (50 test samples per employee):
+
+            Predicted: Emp_A  Predicted: Emp_B  Predicted: Emp_C  Predicted: Emp_D  Predicted: Unknown
+Actual: Emp_A        48                1                 0                 1                 0Actual: Emp_B         0               47                 2                 0                 1Actual: Emp_C         1               0                 49                 0                 0Actual: Emp_D         0               2                 0                 46                 2Actual: Unknown       1               0                 0                 1                48
 ---
 
 ### 4. Real-World vs. Dataset Comparison & Failure Cases
@@ -47,19 +47,15 @@ Actual: Unknown       1               0                 0                 1     
 ---
 
 ### 5. Demo
-[Live Demo Application](https://gaitid.ai.studio/)
+[Live Demo Application](https://ai-powered-contactless-employee-8kyv.vercel.app/)
 
 ---
 
 ## Commit History & Submission Verification
 
-* **Final Submission Commit SHA:** `d0a9a40`
+* **Final Submission Commit SHA:** `922fe67`
 * **Earlier Milestone Commit SHA:** `8a30acf`
 
 ### Changes Between Commits & Rationale
 * **What Changed:** Transitioned from the base application template to a fully evaluated repository by adding model evaluation scripts (`evaluate.py`), quantitative security metrics (FAR, FRR, EER), confusion matrix analysis, and a live web demo link.
-* **Why:** Fulfills evaluation requirements for reproducible testing, evidence-based performance validation, and engineering discipline.
-
-### 3. Confusion Matrix (Per-Person Analysis)
-
-Evaluated across 5 test subjects (50 test samples per employee):
+* **Why:** Fulfills evaluation requirements
