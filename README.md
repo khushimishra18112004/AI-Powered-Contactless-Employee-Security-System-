@@ -36,7 +36,7 @@ Actual: Emp_A        48                1                 0                 1    
 Actual: Emp_B         0               47                 2                 0                 1
 Actual: Emp_C         1               0                 49                 0                 0
 Actual: Emp_D         0               2                 0                 46                 2
-Actual: Unknown       1               0                 0                 1                48
+Actual: Unknown       1               0                 0                 1                  48
 ```
 
 ### 4. Real-World vs. Dataset Comparison & Failure Cases
