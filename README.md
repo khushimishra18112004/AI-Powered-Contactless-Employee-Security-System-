@@ -87,20 +87,7 @@ The app will be available at `http://localhost:3000` (or the port printed in you
 
 > Exact pinned versions are listed in `requirements.txt` and `package.json` — install from those files rather than this list to guarantee reproducibility.
 
----
 
-## Project Structure
-├── evaluate.py # Runs model evaluation, outputs metrics
-├── main.py # Core recognition / inference pipeline
-├── requirements.txt # Python dependencies
-├── package.json # Node/frontend dependencies
-├── src/ or app/ # Web application source
-├── models/ # Trained model weights / checkpoints
-├── data/ # Dataset (or scripts to fetch it)
-├── llm_usage.md # AI/LLM usage documentation
-└── README.md
-
-*(Adjust this to match your actual folder layout.)*
 
 ---
 
